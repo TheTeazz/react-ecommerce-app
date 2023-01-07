@@ -1,0 +1,17 @@
+.navbar{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+}
+.nav-link{
+    font-size: 11px;
+    color: grey;
+}
+span{
+    color: hsl(26, 100%, 55%);
+
+}
+.cart, .user{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+}

@@ -4,14 +4,14 @@ import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ButtonComponent } from './component/button/button.component';
 import { CollectionComponent } from './component/collection/collection.component';
+import { NavbarComponent } from './component/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent,
-    CollectionComponent
+    CollectionComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
