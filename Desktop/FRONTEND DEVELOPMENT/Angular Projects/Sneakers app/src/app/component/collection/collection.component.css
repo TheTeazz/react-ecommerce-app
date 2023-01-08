@@ -16,9 +16,10 @@ i{
     height: 50px;
     width: 50px;
     margin: 2px;
- 
 }
-
+.thumbnails > img:hover{
+    opacity: .5;
+}
 .description{
     font-size: 13px;
 }

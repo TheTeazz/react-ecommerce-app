@@ -15,3 +15,9 @@ span{
     border-radius: 50%;
     color: black;
 }
+.user{
+    border: 1px solid hsl(26, 100%, 55%);
+}
+i{
+    color: Grey;
+}
