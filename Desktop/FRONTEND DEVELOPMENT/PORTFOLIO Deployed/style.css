@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* #7f00ff - violet */
+
+/* #3d535f - dark grey */
+
+/* #f3f5f8 - dim white */
+
+.hero::before{
+    position: absolute;
+    content: '';
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 19%;
+    top: 60%;
+    background: linear-gradient(45deg,#7f00ff, pink);
+    animation: obj1 9s linear infinite;
+    z-index: -5;
+}
+
+@keyframes obj1{
+    50%{
+        left: 3%;
+        top: 50%;
+    }
+}
+.hero::after{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    left: 29%;
+    top: 30%;
+    background: linear-gradient(45deg,#7f00ff, pink);
+    animation: obj2 7s linear infinite;
+    z-index: 5;
+}
+@keyframes obj2{
+    50%{
+        left: 25%;
+        top: 35%;
+    }
+}
+
+.hor::after{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    right: 29%;
+    bottom: 30%;
+    background: linear-gradient(45deg,#7f00ff, pink);
+    animation: obj3 6s linear infinite;
+    z-index: 5;
+}
+@keyframes obj3{
+    50%{
+        right: 25%;
+        bottom: 35%;
+    }
+}
+
+.hor::before{
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    right: 26%;
+    top: 25%;
+    background: linear-gradient(45deg,#7f00ff, pink);
+    animation: obj4 8s linear infinite;
+    z-index: -4;
+}
+@keyframes obj4{
+    50%{
+        right: 25%;
+        top: 30%;
+    
+    }
+}
